@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.sidebar {
+  transition: 1s all ease;
+  display: flex;
+  position: absolute;
+  left: -170px;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+  width: 150px;
+  padding-left: 20px;
+}
+.sidebar a {
+  color: rgb(209, 209, 209);
+  text-decoration: none;
+  padding: 5px;
+}
+.removeSpan {
+  display: flex;
+  justify-content: end;
+}
+.removeButton {
+  background-color: black;
+  color: rgb(209, 209, 209);
+  border: none;
+  margin: 5px;
+}
+.parentDiv {
+  display: flex;
+}
+.openButton {
+  border: none;
+  background-color: black;
+  color: white;
+}
+.openSpan {
+  padding: 15px;
+}

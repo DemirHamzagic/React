@@ -1,0 +1,61 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+.listHeader {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.taskForm {
+  margin-bottom: 30px;
+}
+.addInput {
+  border: none;
+  box-shadow: 0px 5px 10px 0px rgb(185, 185, 185);
+  width: 60%;
+  padding: 5px;
+  border-radius: 3px;
+}
+.addButton {
+  border-radius: 2px;
+  margin-left: 10px;
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: green;
+  color: white;
+}
+.addButton:hover {
+  background-color: rgb(0, 104, 0);
+}
+.taskDiv {
+  box-shadow: 0px 5px 5px 0px rgb(185, 185, 185);
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  position: absolute;
+  left: 55%;
+}
+.deleteButton:hover {
+  background-color: rgb(211, 0, 0);
+}
+
+.editButton {
+  background-color: rgb(53, 53, 126);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  position: absolute;
+  left: 68%;
+}
+.editButton:hover {
+  background-color: rgb(38, 38, 88);
+}

@@ -1,0 +1,45 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.modal {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(255, 251, 212);
+  border: 7px solid rgb(201, 196, 156);
+  border-radius: 40px;
+  display: none;
+}
+span {
+  display: flex;
+  justify-content: end;
+}
+.removeButton {
+  border-radius: 5px;
+  margin: 15px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+.removeButton:hover {
+  background-color: rgb(219, 0, 0);
+}
+.text {
+  color: rgb(158, 156, 130);
+  text-align: center;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(245, 240, 200);
+}
+#button {
+  margin-bottom: 30px;
+  border: 5px solid rgb(168, 168, 168);
+  color: rgb(110, 110, 110);
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+#button:hover {
+  background-color: rgb(212, 212, 212);
+}

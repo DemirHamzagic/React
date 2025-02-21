@@ -1,0 +1,42 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.parentDiv {
+  box-shadow: 1px 1px 10px gray;
+  background-color: rgb(236, 236, 236);
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+}
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+}
+.questionButton {
+  margin-bottom: 5px;
+  padding: 3px;
+  border-radius: 3px;
+  border: 2px rgb(151, 151, 151) solid;
+  background-color: white;
+}
+.questionButton:hover {
+  background-color: rgb(196, 196, 196);
+}
+.submitButton {
+  width: 20%;
+  background-color: rgb(77, 177, 77);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+.submitButton:hover {
+  background-color: rgb(62, 145, 62);
+}
