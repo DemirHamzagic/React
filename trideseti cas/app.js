@@ -28,7 +28,6 @@ const winnerEl = document.querySelector(".winner--header");
 // Sakriti player--winner klasu na oba igraca
 
 // Postaviti player--active klasu u odnosu na to koji je igrac aktivan
-
 let scores, currentScore, activePlayer;
 
 function init() {
